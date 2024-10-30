@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: 2J Gallery\n"
+"POT-Creation-Date: 2017-09-14 12:48+0200\n"
+"PO-Revision-Date: 2017-10-11 20:29+0200\n"
+"Language-Team: 2J Team support@2joomla.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: 2jgallery.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: .hgignore\n"
+"X-Poedit-SearchPathExcluded-2: package.json\n"
+"X-Poedit-SearchPathExcluded-3: .hg\n"
+"X-Poedit-SearchPathExcluded-4: dist\n"
+"X-Poedit-SearchPathExcluded-5: node_modules\n"
+
+#: frontend/block/breadcrumbs.php:82
+msgid "Up"
+msgstr ""
+
+#: frontend/block/pagination.php:77
+msgid "Load more"
+msgstr "Weitere laden"
+
+#: includes/banner.php:10
+msgid "Get full freedom with Premium version"
+msgstr ""
+
+#: includes/banner.php:11 includes/media.library.php:38
+msgid "BUY NOW"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: includes/edit.php:32 includes/edit.php:38 includes/editor.wizard.php:13
+#: includes/editor.wizard.php:24 includes/init.php:63 includes/init.php:65
+#: includes/init.php:66 includes/media.library.php:37 includes/options.php:8
+#: includes/widget.php:9
+msgid "2J Gallery"
+msgstr "2J Gallery"
+
+#: includes/edit.php:32
+msgid "Premium"
+msgstr ""
+
+#: includes/edit.php:33
+msgid "Continue with Free version"
+msgstr ""
+
+#: includes/edit.php:34
+msgid "Buy Premium"
+msgstr ""
+
+#: includes/edit.php:36
+msgid "Get full freedom and much more functionality with"
+msgstr ""
+
+#: includes/edit.php:39
+msgid "Premium version"
+msgstr ""
+
+#: includes/editor.wizard.php:14
+msgid "Close"
+msgstr "Schließen"
+
+#: includes/editor.wizard.php:15
+msgid "Add Shortcode"
+msgstr "Shortcode hinzufügen"
+
+#: includes/editor.wizard.php:22 includes/init.php:65 includes/init.php:66
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: includes/editor.wizard.php:37 includes/widget.php:68
+msgid "Use"
+msgstr "Nutzung"
+
+#: includes/editor.wizard.php:39 includes/widget.php:69
+msgid "galleries manager"
+msgstr ""
+
+#: includes/editor.wizard.php:41 includes/widget.php:70
+msgid "for settings configuration."
+msgstr ""
+
+#: includes/editor.wizard.php:43 includes/widget.php:73
+msgid "Here select one from the pre-configured galleries"
+msgstr ""
+
+#: includes/extensions/duplicate.php:42
+msgid "Clone this item"
+msgstr ""
+
+#: includes/extensions/duplicate.php:43
+msgid "Clone"
+msgstr ""
+
+#: includes/extensions/duplicate.php:45 includes/extensions/duplicate.php:190
+msgid "Copy to a new draft"
+msgstr ""
+
+#: includes/extensions/duplicate.php:45
+msgid "New Draft"
+msgstr ""
+
+#: includes/extensions/duplicate.php:108
+msgid "Untitled"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/feedback.php:9
+msgid "Thank you very much for your feedback!"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/feedback.php:10
+msgid "Submit error. Please try again later."
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/feedback.php:11
+msgid "Please fill the form before click on send button."
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/feedback.php:12
+msgid "Incorrect email."
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/image.php:9
+msgid "Images"
+msgstr "Bilder"
+
+#: includes/extensions/fields/config/metabox/settings.php:24
+msgid "Max Width Gallery"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/settings.php:57
+msgid "Gallery Thumbnails Quality"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/settings.php:88
+msgid "Gallery Layout Mode"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/settings.php:112
+msgid "General Gallery Thumbnail"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/settings.php:134
+msgid "Gallery Align"
+msgstr "Galerie ausrichten"
+
+#: includes/extensions/fields/config/metabox/settings.php:168
+msgid "Gallery Background Color"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/voting.php:9
+msgid "Thank you very much for your opinion!"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/voting.php:10
+msgid "Voting error. Please try again later."
+msgstr ""
+
+#: includes/extensions/fields/template/field/text/images.tpl.php:24
+msgid "Manage Images"
+msgstr ""
+
+#: includes/extensions/fields/template/metabox/default.tpl.php:24
+msgid "Premium function"
+msgstr ""
+
+#: includes/extensions/fields/template/metabox/default.tpl.php:30
+msgid "New Feature"
+msgstr "Neue Funktionen"
+
+#: includes/init.php:64 includes/init.php:130
+msgid "Galleries List"
+msgstr ""
+
+#: includes/init.php:67
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/init.php:142
+msgid "Get Premium Version"
+msgstr ""
+
+#: includes/listing.php:23
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/media.library.php:37
+msgid "Premium options"
+msgstr ""
+
+#: includes/media.library.php:43
+msgid "Link"
+msgstr ""
+
+#: includes/media.library.php:53
+msgid "Self"
+msgstr "Ich"
+
+#: includes/media.library.php:54
+msgid "Blank"
+msgstr ""
+
+#: includes/media.library.php:55
+msgid "Video"
+msgstr ""
+
+#: includes/media.library.php:59
+msgid "Blank Link"
+msgstr ""
+
+#: includes/options.php:10
+msgid "General Settings"
+msgstr ""
+
+#: includes/options.php:20
+msgid "Editable Sliders"
+msgstr ""
+
+#: includes/options.php:23
+msgid "Show Text"
+msgstr ""
+
+#: includes/options.php:24 includes/options.php:26
+msgid "Enable"
+msgstr ""
+
+#: includes/options.php:28 includes/options.php:30
+msgid "Disable"
+msgstr ""
+
+#: includes/options.php:38
+msgid ""
+"this option enable/disable editable text fields for sliders in gallery "
+"options"
+msgstr ""
+
+#: includes/options.php:44 includes/options.php:47
+msgid "Show  gallery options in media library"
+msgstr ""
+
+#: includes/options.php:49 includes/options.php:51
+msgid "Show"
+msgstr ""
+
+#: includes/options.php:54 includes/options.php:56
+msgid "Hide"
+msgstr ""
+
+#: includes/options.php:68
+msgid "Save Changes"
+msgstr ""
+
+#: includes/options.php:74
+msgid "All Rights Reserved"
+msgstr ""
+
+#: includes/widget.php:11
+msgid "Widget"
+msgstr ""
+
+#: includes/widget.php:13
+msgid "Gallery for your blog"
+msgstr ""
+
+#: includes/widget.php:29 includes/widget.php:61
+msgid "This widget available in Premium version"
+msgstr ""
+
+#: includes/widget.php:38
+msgid "New gallery"
+msgstr ""
+
+#: includes/widget.php:64
+msgid "Title"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://2joomla.net/wordpress-plugins/2j-gallery"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"2J Gallery powerful photo gallery with eye-catching interface and amazing "
+"hover animation effects"
+msgstr ""

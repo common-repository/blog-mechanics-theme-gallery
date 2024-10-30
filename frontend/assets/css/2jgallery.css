@@ -1,0 +1,1227 @@
+/*  
+ * 2J Gallery			http://2joomla.net/wordpress-plugins/2j-gallery
+ * Version:           	2.2.6 - 57233
+ * Author:            	2J Team (c)
+ * Author URI:        	http://2joomla.net
+ * License:           	GPL-2.0+
+ * License URI:       	http://www.gnu.org/licenses/gpl-2.0.txt
+ * Date:              	Thu, 26 Oct 2017 17:09:25 GMT
+ */
+
+.twoJGallery {
+}
+
+.twoJGallery .block {
+}
+
+
+.twoJGallery .block.twoJG_content {
+}
+
+.twoJGallery .block.twoJG_content .gallery-item {
+}
+
+.twoJGalleryCSSwrap .pagination-2j{
+
+}
+.twoJGalleryCSSwrap .breadcrumb-2j{
+}
+
+.twoJGallery .block.twoJG_breadcrumbs .up {}
+
+.twoJGalleryCSSwrap .pagination-2j,
+.twoJGalleryCSSwrap .breadcrumb-2j{
+	margin: 0;
+}
+
+ .twoJGalleryCSSwrap a,
+ .twoJGalleryCSSwrap a:link,
+ .twoJGalleryCSSwrap a:focus{
+	box-shadow: none;
+	text-decoration: none;
+}
+
+.twoJGallery .twoJG_navigation.row,
+.twoJGallery .twoJG_content.row,
+.twoJGallery .twoJG_paging.row{
+	margin-left: 0;
+}
+  /*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+div.twoJGallery .twoJGalleryCSSwrap {}
+
+html div.twoJGallery .twoJGalleryCSSwrap {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body div.twoJGallery .twoJGalleryCSSwrap {
+  margin: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap article,
+div.twoJGallery .twoJGalleryCSSwrap aside,
+div.twoJGallery .twoJGalleryCSSwrap details,
+div.twoJGallery .twoJGalleryCSSwrap figcaption,
+div.twoJGallery .twoJGalleryCSSwrap figure,
+div.twoJGallery .twoJGalleryCSSwrap footer,
+div.twoJGallery .twoJGalleryCSSwrap header,
+div.twoJGallery .twoJGalleryCSSwrap hgroup,
+div.twoJGallery .twoJGalleryCSSwrap main,
+div.twoJGallery .twoJGalleryCSSwrap menu,
+div.twoJGallery .twoJGalleryCSSwrap nav,
+div.twoJGallery .twoJGalleryCSSwrap section,
+div.twoJGallery .twoJGalleryCSSwrap summary {
+  display: block;
+}
+div.twoJGallery .twoJGalleryCSSwrap audio,
+div.twoJGallery .twoJGalleryCSSwrap canvas,
+div.twoJGallery .twoJGalleryCSSwrap progress,
+div.twoJGallery .twoJGalleryCSSwrap video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+div.twoJGallery .twoJGalleryCSSwrap audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap [hidden],
+div.twoJGallery .twoJGalleryCSSwrap template {
+  display: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap a {
+  background-color: transparent;
+}
+div.twoJGallery .twoJGalleryCSSwrap a:active,
+div.twoJGallery .twoJGalleryCSSwrap a:hover {
+  outline: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap abbr[title] {
+  border-bottom: 1px dotted;
+}
+div.twoJGallery .twoJGalleryCSSwrap b,
+div.twoJGallery .twoJGalleryCSSwrap strong {
+  font-weight: bold;
+}
+div.twoJGallery .twoJGalleryCSSwrap dfn {
+  font-style: italic;
+}
+div.twoJGallery .twoJGalleryCSSwrap h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap mark {
+  background: #ff0;
+  color: #000;
+}
+div.twoJGallery .twoJGalleryCSSwrap small {
+  font-size: 80%;
+}
+div.twoJGallery .twoJGalleryCSSwrap sub,
+div.twoJGallery .twoJGalleryCSSwrap sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+div.twoJGallery .twoJGalleryCSSwrap sup {
+  top: -0.5em;
+}
+div.twoJGallery .twoJGalleryCSSwrap sub {
+  bottom: -0.25em;
+}
+div.twoJGallery .twoJGalleryCSSwrap img {
+  border: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap svg:not(:root) {
+  overflow: hidden;
+}
+div.twoJGallery .twoJGalleryCSSwrap figure {
+  margin: 1em 40px;
+}
+div.twoJGallery .twoJGalleryCSSwrap hr {
+  box-sizing: content-box;
+  height: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap pre {
+  overflow: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap code,
+div.twoJGallery .twoJGalleryCSSwrap kbd,
+div.twoJGallery .twoJGalleryCSSwrap pre,
+div.twoJGallery .twoJGalleryCSSwrap samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+div.twoJGallery .twoJGalleryCSSwrap button,
+div.twoJGallery .twoJGalleryCSSwrap input,
+div.twoJGallery .twoJGalleryCSSwrap optgroup,
+div.twoJGallery .twoJGalleryCSSwrap select,
+div.twoJGallery .twoJGalleryCSSwrap textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap button {
+  overflow: visible;
+}
+div.twoJGallery .twoJGalleryCSSwrap button,
+div.twoJGallery .twoJGalleryCSSwrap select {
+  text-transform: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap button,
+html div.twoJGallery .twoJGalleryCSSwrap input[type="button"],
+div.twoJGallery .twoJGalleryCSSwrap input[type="reset"],
+div.twoJGallery .twoJGalleryCSSwrap input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+div.twoJGallery .twoJGalleryCSSwrap button[disabled],
+html div.twoJGallery .twoJGalleryCSSwrap input[disabled] {
+  cursor: default;
+}
+div.twoJGallery .twoJGalleryCSSwrap button::-moz-focus-inner,
+div.twoJGallery .twoJGalleryCSSwrap input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap input {
+  line-height: normal;
+}
+div.twoJGallery .twoJGalleryCSSwrap input[type="checkbox"],
+div.twoJGallery .twoJGalleryCSSwrap input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap input[type="number"]::-webkit-inner-spin-button,
+div.twoJGallery .twoJGalleryCSSwrap input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+div.twoJGallery .twoJGalleryCSSwrap input[type="search"]::-webkit-search-cancel-button,
+div.twoJGallery .twoJGalleryCSSwrap input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+div.twoJGallery .twoJGalleryCSSwrap legend {
+  border: 0;
+  padding: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap textarea {
+  overflow: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap optgroup {
+  font-weight: bold;
+}
+div.twoJGallery .twoJGalleryCSSwrap table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap td,
+div.twoJGallery .twoJGalleryCSSwrap th {
+  padding: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.twoJGallery .twoJGalleryCSSwrap *:before,
+div.twoJGallery .twoJGalleryCSSwrap *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html div.twoJGallery .twoJGalleryCSSwrap {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body div.twoJGallery .twoJGalleryCSSwrap {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  /* background-color: #fff; */
+}
+div.twoJGallery .twoJGalleryCSSwrap input,
+div.twoJGallery .twoJGalleryCSSwrap button,
+div.twoJGallery .twoJGalleryCSSwrap select,
+div.twoJGallery .twoJGalleryCSSwrap textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+div.twoJGallery .twoJGalleryCSSwrap a {
+  color: #337ab7;
+  text-decoration: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap a:hover,
+div.twoJGallery .twoJGalleryCSSwrap a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+div.twoJGallery .twoJGalleryCSSwrap a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+div.twoJGallery .twoJGalleryCSSwrap figure {
+  margin: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap img {
+  vertical-align: middle;
+}
+div.twoJGallery .twoJGalleryCSSwrap .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap .img-rounded {
+  border-radius: 6px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap .img-circle {
+  border-radius: 50%;
+}
+div.twoJGallery .twoJGalleryCSSwrap hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+div.twoJGallery .twoJGalleryCSSwrap .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .sr-only-focusable:active,
+div.twoJGallery .twoJGalleryCSSwrap .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap [role="button"] {
+  cursor: pointer;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j:active:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j.active:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j:active.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j.focus {
+  color: #333;
+  text-decoration: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j.disabled,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j[disabled],
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+adiv.twoJGallery .twoJGalleryCSSwrap .btn-2j.disabled,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] a .btn-2j {
+  pointer-events: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default:active:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default.active:hover,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-default:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default:active:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default.active:focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-default:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default:active.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default.active.focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-default.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-default {
+  background-image: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default.disabled:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default[disabled]:hover,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-default:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default.disabled:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default[disabled]:focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-default:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default.disabled.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default[disabled].focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-default.focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-default .badge {
+  color: #fff;
+  background-color: #333;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-primary {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary:active:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary.active:hover,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-primary:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary:active:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary.active:focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-primary:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary:active.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary.active.focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-primary.focus {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-primary {
+  background-image: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary.disabled:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary[disabled]:hover,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-primary:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary.disabled:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary[disabled]:focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-primary:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary.disabled.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary[disabled].focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-primary.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-primary .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success.focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-success {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success:active:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success.active:hover,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-success:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success:active:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success.active:focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-success:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success:active.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success.active.focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-success.focus {
+  color: #fff;
+  background-color: #398439;
+  border-color: #255625;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-success {
+  background-image: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success.disabled:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success[disabled]:hover,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-success:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success.disabled:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success[disabled]:focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-success:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success.disabled.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success[disabled].focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-success.focus {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-success .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info.focus {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #1b6d85;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-info {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info:active:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info.active:hover,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-info:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info:active:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info.active:focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-info:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info:active.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info.active.focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-info.focus {
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-info {
+  background-image: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info.disabled:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info[disabled]:hover,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-info:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info.disabled:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info[disabled]:focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-info:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info.disabled.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info[disabled].focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-info.focus {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-info .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning.focus {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #985f0d;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning:hover {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-warning {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning:active:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning.active:hover,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-warning:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning:active:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning.active:focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-warning:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning:active.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning.active.focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-warning.focus {
+  color: #fff;
+  background-color: #d58512;
+  border-color: #985f0d;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-warning {
+  background-image: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning.disabled:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning[disabled]:hover,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-warning:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning.disabled:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning[disabled]:focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-warning:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning.disabled.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning[disabled].focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-warning.focus {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-warning .badge {
+  color: #f0ad4e;
+  background-color: #fff;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger.focus {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #761c19;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger:hover {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-danger {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger:active:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger.active:hover,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-danger:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger:active:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger.active:focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-danger:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger:active.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger.active.focus,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-danger.focus {
+  color: #fff;
+  background-color: #ac2925;
+  border-color: #761c19;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger.active,
+div.twoJGallery .twoJGalleryCSSwrap.open > .dropdown-2j-toggle .btn-2j-danger {
+  background-image: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger.disabled:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger[disabled]:hover,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-danger:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger.disabled:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger[disabled]:focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-danger:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger.disabled.focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger[disabled].focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-danger.focus {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-danger .badge {
+  color: #d9534f;
+  background-color: #fff;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link {
+  color: #337ab7;
+  font-weight: normal;
+  border-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link.active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link[disabled],
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link:active {
+  border-color: transparent;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link:focus {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: transparent;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link[disabled]:hover,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-link:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-link[disabled]:focus,
+div.twoJGallery .twoJGalleryCSSwrap fieldset[disabled] .btn-2j-link:focus {
+  color: #777777;
+  text-decoration: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-block {
+  display: block;
+  width: 100%;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-block + .btn-2j-block {
+  margin-top: 5px;
+}
+div.twoJGallery .twoJGalleryCSSwrap input[type="submit"].btn-2j-block,
+div.twoJGallery .twoJGalleryCSSwrap input[type="reset"].btn-2j-block,
+div.twoJGallery .twoJGalleryCSSwrap input[type="button"].btn-2j-block {
+  width: 100%;
+}
+div.twoJGallery .twoJGalleryCSSwrap .caret-2j {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropup-2j,
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j {
+  position: relative;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-toggle:focus {
+  outline: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333333;
+  white-space: nowrap;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > li > a:hover,
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > .active > a,
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > .active > a:hover,
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #337ab7;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > .disabled > a,
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > .disabled > a:hover,
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > .disabled > a:focus {
+  color: #777777;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > .disabled > a:hover,
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+div.twoJGallery .twoJGalleryCSSwrap .open > .dropdown-2j-menu {
+  display: block;
+}
+div.twoJGallery .twoJGalleryCSSwrap .open > a {
+  outline: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu-right {
+  left: auto;
+  right: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-menu-left {
+  left: 0;
+  right: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #777777;
+  white-space: nowrap;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropdown-2j-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pull-right > .dropdown-2j-menu {
+  right: 0;
+  left: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropup-2j .caret-2j,
+div.twoJGallery .twoJGalleryCSSwrap .navbar-fixed-bottom .dropdown-2j .caret-2j {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropup-2j .dropdown-2j-menu,
+div.twoJGallery .twoJGalleryCSSwrap .navbar-fixed-bottom .dropdown-2j .dropdown-2j-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 2px;
+}
+@media (min-width: 768px) {
+  div.twoJGallery .twoJGalleryCSSwrap .navbar-right .dropdown-2j-menu {
+    left: auto;
+    right: 0;
+  }
+  div.twoJGallery .twoJGalleryCSSwrap .navbar-right .dropdown-2j-menu-left {
+    left: 0;
+    right: auto;
+  }
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j {
+  position: relative;
+  float: left;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j:hover,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j:focus,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j.active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j.active {
+  z-index: 2;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group .btn-2j + .btn-2j,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group .btn-2j + .btn-2j-group,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group .btn-2j-group + .btn-2j,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group .btn-2j-group + .btn-2j-group {
+  margin-left: -1px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-toolbar {
+  margin-left: -5px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-toolbar .btn-2j,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-toolbar .btn-2j-group,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-toolbar .input-group {
+  float: left;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-toolbar > .btn-2j,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-toolbar > .btn-2j-group,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-toolbar > .input-group {
+  margin-left: 5px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j:not(:first-child):not(:last-child):not(.dropdown-2j-toggle) {
+  border-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j:first-child {
+  margin-left: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j:first-child:not(:last-child):not(.dropdown-2j-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j:last-child:not(:first-child),
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .dropdown-2j-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j-group {
+  float: left;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j-group:not(:first-child):not(:last-child) > .btn-2j {
+  border-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j-group:first-child:not(:last-child) > .btn-2j:last-child,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j-group:first-child:not(:last-child) > .dropdown-2j-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j-group:last-child:not(:first-child) > .btn-2j:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group .dropdown-2j-toggle:active,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group.open .dropdown-2j-toggle {
+  outline: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j + .dropdown-2j-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group > .btn-2j-lg + .dropdown-2j-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group.open .dropdown-2j-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group.open .dropdown-2j-toggle.btn-2j-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j .caret-2j {
+  margin-left: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-lg .caret-2j {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .dropup-2j .btn-2j-lg .caret-2j {
+  border-width: 0 5px 5px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j-group,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j-group > .btn-2j {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j-group > .btn-2j {
+  float: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j + .btn-2j,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j + .btn-2j-group,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j-group + .btn-2j,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j-group + .btn-2j-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j:first-child:not(:last-child) {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j:last-child:not(:first-child) {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j-group:not(:first-child):not(:last-child) > .btn-2j {
+  border-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j-group:first-child:not(:last-child) > .btn-2j:last-child,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j-group:first-child:not(:last-child) > .dropdown-2j-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-vertical > .btn-2j-group:last-child:not(:first-child) > .btn-2j:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-justified > .btn-2j,
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-justified > .btn-2j-group {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-justified > .btn-2j-group .btn-2j {
+  width: 100%;
+}
+div.twoJGallery .twoJGalleryCSSwrap .btn-2j-group-justified > .btn-2j-group .dropdown-2j-menu {
+  left: auto;
+}
+div.twoJGallery .twoJGalleryCSSwrap [data-toggle="buttons"] > .btn-2j input[type="radio"],
+div.twoJGallery .twoJGalleryCSSwrap [data-toggle="buttons"] > .btn-2j-group > .btn-2j input[type="radio"],
+div.twoJGallery .twoJGalleryCSSwrap [data-toggle="buttons"] > .btn-2j input[type="checkbox"],
+div.twoJGallery .twoJGalleryCSSwrap [data-toggle="buttons"] > .btn-2j-group > .btn-2j input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+div.twoJGallery .twoJGalleryCSSwrap .breadcrumb-2j {
+  padding: 8px 15px;
+  /* margin-bottom: 20px; */
+  margin: 0;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .breadcrumb-2j > li {
+  display: inline-block;
+  background-image: none;
+  margin: 0;
+  padding: 0;
+}
+div.twoJGallery .twoJGalleryCSSwrap .breadcrumb-2j > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #ccc;
+}
+div.twoJGallery .twoJGalleryCSSwrap .breadcrumb-2j > .active {
+  color: #777777;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j {
+  display: inline-block;
+  padding-left: 0;
+  margin: 0;
+  /* margin: 20px 0; */
+  border-radius: 4px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li {
+  display: inline;
+  margin: 0;
+
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #337ab7;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li:first-child > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li:last-child > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li > a:hover,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li > span:hover,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li > a:focus,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > li > span:focus {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eeeeee;
+  border-color: #ddd;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .active > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .active > span,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .active > a:hover,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .active > span:hover,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .active > a:focus,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  cursor: default;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .disabled > span,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .disabled > span:hover,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .disabled > span:focus,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .disabled > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .disabled > a:hover,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j > .disabled > a:focus {
+  color: #777777;
+  background-color: #fff;
+  border-color: #ddd;
+  cursor: not-allowed;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-lg > li > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-lg > li:first-child > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-lg > li:first-child > span {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-lg > li:last-child > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-lg > li:last-child > span {
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-sm > li > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-sm > li:first-child > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-sm > li:first-child > span {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-sm > li:last-child > a,
+div.twoJGallery .twoJGalleryCSSwrap .pagination-2j-sm > li:last-child > span {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}

@@ -1,0 +1,9 @@
+/*  
+ * 2J Gallery			http://2joomla.net/wordpress-plugins/2j-gallery
+ * Version:           	2.2.6 - 57233
+ * Author:            	2J Team (c)
+ * Author URI:        	http://2joomla.net
+ * License:           	GPL-2.0+
+ * License URI:       	http://www.gnu.org/licenses/gpl-2.0.txt
+ * Date:              	Thu, 26 Oct 2017 17:09:25 GMT
+ *//* Dialog main style */#twoj_gallery_dialog_options{	font-size: 18px;	line-height: 30px;}/* Dialog fix link glow effect */#twoj_gallery_dialog_options a:focus{	box-shadow: none;}.TwoJGalleryFields button,.TwoJGalleryFields button:link,.TwoJGalleryFields button:focus,.TwoJGalleryFields button:hover{	box-shadow: none !important;	outline: none !important;	}.TwoJGalleryFields button.button-link{	background-color: transparent !important;}html .twoJGalleryCSSwrap a,html .twoJGalleryCSSwrap a:link,html .twoJGalleryCSSwrap a:focus,html .twoJGalleryCSSwrap a:hover{	box-shadow: none;}.twoj-gallery-option-premium{	cursor: pointer;}

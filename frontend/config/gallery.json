@@ -1,0 +1,204 @@
+{
+  "default": {
+    "gallery": {
+      "thumbnail_id": 0
+    }
+  },
+  "gallery": {
+    "images": "post_meta/twoj_gallery_images/0"
+  },
+  "block": {
+    "navigation": {
+      "view": "list",
+      "item": {
+        "class-active": "active",
+        "buttonColor": "default",
+        "buttonSize": ""
+      }
+    },
+    "content": {
+      "view": "subgalleries_images",
+      "view_setting": {
+        "subgalleries": {
+          "image_type": "random",
+          "image_selected": "post_meta/image_selected/0"
+        }
+      },
+      "item": {
+        "image": {
+          "preview": {
+            "size": "medium"
+          },
+          "lightbox": {
+            "size": "original"
+          }
+        },
+        "link": {
+          "value": "post_meta/link/0",
+          "type": "post_meta/type_link/0"
+        },
+        "fields": {
+          "title": "post/post_title",
+          "description": "post/post_content"
+        },
+        "style": {
+          "title": {
+            "std": {
+              "backgroundColor": "post_meta/title_background_color/0"
+            },
+            "hover": {
+              "backgroundColor": "post_meta/title_hover_background_color/0"
+            }
+          }
+        }
+      },
+      "per_page": 11,
+      "grid": {
+        "setting": {
+          "gridType": "classicVertical",
+
+          "displayType": "responsive",
+          "rightClickContextMenu": "default",
+          "mainFolderPath": "/vendor/GAMMAGRID/css",
+          "gridSkinPath": "images",
+          "lightboxSkinPath": "images",
+
+          "allCategoriesLabel": "ALL GALLERIES",
+          "autoScale": "yes",
+          "showFullScreenButton": "no",
+          "addMouseWheelSupport": "no",
+          "showAllCategories": "yes",
+          "randomizeCategories": "no",
+
+          //+
+          "backgroundColor": "#000000", 
+          //-
+
+          "zIndex": 0,
+          "animateParent":"yes", 
+          "startAtCategory": 0,
+   
+          //menu settings
+          "menuType": "list",
+          "showMenu": "no",
+          "multipleCategorySelection": "yes",
+          "showMenuButtonsSpacers": "no",
+          "showTotalThumbnailsPerCategory": "yes",
+          "showSearchBox": "yes",
+          "centerNoSearchFoundLabelWithMenu": "yes",
+          "comboboxSelectorLabel": "SELECT GALLERIES",
+          "menuPosition": "left",
+          "searchLabel": "search",
+          "searchNotFoundLabel": "NO RESULT FOUND!",
+          "comboboxArrowNormalColor": "#FFFFFF",
+          "comboboxArrowSelectedColor": "#000000",
+          "menuButtonSpacerWidth": 1,
+          "menuButtonSpacerHeight": 20,
+          "menuButtonsSapcerLeftAndRight": 20,
+          "menuMaxWidth": 920,
+          "menuOffsetTop": 25,
+          "menuOffsetBottom": 25,
+          "horizontalSpaceBetweenMenuButtons": 10,
+          "verticalSpaceBetweenMenuButtons": 20,
+          //thumbnail settings
+          //loadMoreWithButton, loadMoreOnScroll
+          "thumbnailLoadingType": "loadMoreWithButton",
+          "hideAndShowTransitionType": "scale",
+          "thumbanilBoxShadow": "none",
+          "disableThumbnails": "no",
+          "inverseButtonsIcons": "no",
+        //+
+          "thumbnailBackgroundColor": "#333333", 
+        //-
+          "thumbnailBorderNormalColor": "#FFFFFF",
+          "thumbnailBorderSelectedColor": "#c1c1c1",
+
+          "howManyThumbnailsToDisplayPerSet": 999,
+        //+
+        "thumbnailsHorizontalOffset": 0,
+        "thumbnailsVerticalOffset": 0,
+        
+        "thumbnailMaxWidth": 278,
+        "thumbnailMaxHeight": 188,
+         
+        "horizontalSpaceBetweenThumbnails": 0,
+        "verticalSpaceBetweenThumbnails": 0,
+ 		//-
+
+          "thumbnailBorderSize": 0,
+          "thumbnailBorderRadius": 0,
+
+          //load more button settings
+          "loadMoreButtonLabel": "LOAD MORE THUMBNAILS",
+          "loadMoreButtonOffsetTop": 25,
+          "loadMoreButtonOffsetBottom": 25,
+          
+
+
+		 // "imageTransitionDirection":"top",
+
+		"preset":"animtext",
+		
+		//up
+		"textVerticalAlign":"center",
+		//top, center or bottom
+
+		//up
+		"textAnimationType":"scale",
+		// opacity, scale, scalerandom and largescale
+
+		"useIconButtons":"no",
+		"thumbnailOverlayColor":"#FFFFFF",
+		
+		"thumbnailOverlayOpacity": 0.8,
+
+		"thumbnailIconWidth":30,
+		"thumbnailIconHeight":29,
+
+		"spaceBetweenThumbanilIcons":12,
+		"spaceBetweenTextAndIcons":10
+        }
+      },
+      "lightbox": {
+        "setting": {
+          "hash": false,
+          "download": false,
+          "share": false,
+          "zoom": false,
+          "fullScreen": false,
+          "autoplay": false,
+          "thumbnail": false,
+          "youtubePlayerParams": {
+            "showinfo": 0
+          },
+          "plugins": [
+            "video"
+          ]
+        }
+      }
+    },
+    "breadcrumbs": {
+      "view": "show",
+      "separator": "/",
+      "up": {
+        "is_show": false
+      }
+    },
+    "pagination": {
+      "view": "numbering",
+      "numbering": {
+        "setting": {
+          "displayedPages": 5,
+          "useStartEdge" : true,
+          "useEndEdge" : true,
+          "edges": 1,
+          "prevText": "&laquo;",
+          "nextText": "&raquo;"
+        }
+      },
+      "load_more": {
+        "type": "click"
+      }
+    }
+  }
+}

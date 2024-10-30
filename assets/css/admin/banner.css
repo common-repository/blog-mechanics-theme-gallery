@@ -1,0 +1,9 @@
+/*  
+ * 2J Gallery			http://2joomla.net/wordpress-plugins/2j-gallery
+ * Version:           	2.2.6 - 57233
+ * Author:            	2J Team (c)
+ * Author URI:        	http://2joomla.net
+ * License:           	GPL-2.0+
+ * License URI:       	http://www.gnu.org/licenses/gpl-2.0.txt
+ * Date:              	Thu, 26 Oct 2017 17:09:25 GMT
+ */.twoJGalleryBanner{	background-color: #ed7733;	padding: 15px 0 20px 0;	margin-left: -20px;	font-family: Verdana;	cursor: pointer;	text-align: center;}.twoJGalleryBanner .twoJGalleryBannerBottom{	color: white;	font-size: 38px;	font-weight: bolder;	padding: 20px 0 0 0;}.twoJGalleryBanner .twoJGalleryBannerUp{	color: white;	font-size: 26px;	padding: 0;}.twojgallery_get_premium_version_blank{	cursor: pointer;}@media screen and ( max-width: 600px ) {	.twoJGalleryBanner{ padding-top: 60px; margin-bottom: -50px; }	.twoJGalleryBanner .twoJGalleryBannerUp { display: none; }}
